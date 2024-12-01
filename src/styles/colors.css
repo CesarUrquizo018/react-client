@@ -1,0 +1,10 @@
+/* src/styles/colors.css */
+
+/* Paleta de colores del proyecto */
+:root {
+  --azul-1: #0A2742;  /* Azul oscuro para encabezados y fondos oscuros */
+  --azul-2: #4A90E2;  /* Azul claro para botones y elementos destacados */
+  --gris-1: #F5F7FA;  /* Fondo claro general */
+  --gris-2: #B0B3B8;  /* Botones secundarios o texto neutral */
+  --naranja: #F5A623; /* Alertas o notificaciones */
+}

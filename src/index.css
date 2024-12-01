@@ -1,0 +1,20 @@
+/* index.css 
+
+/* Importamos los colores globales */
+@import './styles/colors.css';
+
+/* Estilo general para el cuerpo del documento */
+body {
+  margin: 1;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: none; /* Cambiamos el color por la imagen */
+  background-color: #f8f9fa;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+

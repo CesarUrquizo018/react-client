@@ -1,0 +1,17 @@
+/* app.css */
+
+/* Fondo y estilo del Header */
+.header-navbar {
+  background-color: var(--azul-2) !important;
+  padding: 10px 20px;
+}
+
+.header-brand {
+  color: var(--gris-1) !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.header-navbar .nav-link {
+  color: var(--gris-1) !important;
+}
