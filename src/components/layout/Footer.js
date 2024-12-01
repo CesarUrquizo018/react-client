@@ -11,18 +11,18 @@ const Footer = () => {
           </Col>
           <Col>
             <p>
-              <a href="#" className="text-white text-decoration-none">
+              <a href="/user" className="text-white text-decoration-none">
                 Términos y Condiciones
               </a>{' '}
               |{' '}
-              <a href="#" className="text-white text-decoration-none">
+              <a href="/user" className="text-white text-decoration-none">
                 Política de Privacidad
               </a>
             </p>
           </Col>
           <Col>
             <p>
-              Contacto: <a href="mailto:soporte@explora.com" className="text-white">soporte@wecolab.com</a>
+              Contacto: <a href="mailto:soporte@wecolab.com" className="text-white">soporte@wecolab.com</a>
             </p>
           </Col>
         </Row>

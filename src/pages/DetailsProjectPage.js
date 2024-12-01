@@ -22,7 +22,6 @@ function DetailsProjectPage() {
   const [error, setError] =useState(null);
   const [showEditModal, setShowEditModal] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
-  const [modalType, setModalType] = useState('');
 
   const [newFuente, setNewFuente] = useState({
     NombreFuente: '',
@@ -90,7 +89,6 @@ function DetailsProjectPage() {
   };
 
   const handleAddFuente = () => {
-    setModalType('fuente');
     setNewFuente({ NombreFuente: '', DescripcionFuente: '', URLFuente: '' });
     setSelectedItem(null);
     setShowEditModal(true);
@@ -123,7 +121,6 @@ function DetailsProjectPage() {
           fuentes={fuentes}
           onEdit={(fuente) => {
             setSelectedItem(fuente);
-            setModalType('fuente');
             setNewFuente({
               NombreFuente: fuente.NombreFuente,
               DescripcionFuente: fuente.DescripcionFuente,
