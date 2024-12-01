@@ -1,6 +1,6 @@
 // src/components/auth/CreateUserForm.js
 import React from 'react';
-import { Form, Button, Row, Col } from 'react-bootstrap';
+import { Form, Button} from 'react-bootstrap';
 
 function CreateUserForm({
   username,

@@ -22,7 +22,8 @@ function DetailsProjectPage() {
   const [error, setError] =useState(null);
   const [showEditModal, setShowEditModal] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
-  const [modalType, setModalType] = useState(null);
+  const [modalType, setModalType] = useState('');
+
   const [newFuente, setNewFuente] = useState({
     NombreFuente: '',
     DescripcionFuente: '',
