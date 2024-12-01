@@ -1,6 +1,6 @@
 // src/components/modals/EditProjectModal.js
 import React, { useState, useEffect } from 'react';
-import { Modal, Form, Button, Col, Row } from 'react-bootstrap';
+import { Modal, Form, Button} from 'react-bootstrap';
 import axios from 'axios';
 
 const EditProjectModal = ({ show, onClose, projectId, apiUrl, onProjectUpdated }) => {
